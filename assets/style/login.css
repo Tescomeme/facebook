@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+#flex {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+}
+
+#header h3 {
+    color: #0866ff;
+    margin: 20px;
+    font-size: 30px;
+}
+
+#container {
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    min-height: 250px;
+    min-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 1px 10px white;
+
+    #email,
+    #password,
+    #login button {
+        width: 100%;
+        height: 50px;
+        /* outline: none; */
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #password {
+        margin-top: 10px;
+    }
+
+    #login button {
+        margin-top: 10px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        background-color: #0866ff;
+        cursor: pointer;
+    }
+
+    #forget-pass {
+        margin-top: 10px;
+        font-size: 15px;
+        color: #0866ff;
+        cursor: pointer;
+    }
+
+    hr {
+        margin-top: 10px;
+    }
+
+    #create-new {
+        margin-top: 15px;
+    }
+
+    #create-new button {
+        padding: 15px 20px;
+        color: white;
+        background-color: #42b72a;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+}
+#back-g{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/aW4FjA5PhOT.png?_nc_eui2=AeEdirLr4uJ0S7aLe7Vpxfglaz4ElA9fvIxrPgSUD1-8jAm4DDX9GELWkowHaNnT4f_9EiKEdfLxgN-p7s39kS_U');
+    height: 600px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
