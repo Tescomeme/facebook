@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'roboto', sans-serif;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
 }
 
 #flex {
@@ -56,6 +57,10 @@
         cursor: pointer;
     }
 
+    #login button a{
+        color:white
+    }
+
     #forget-pass {
         margin-top: 10px;
         font-size: 15px;
@@ -80,10 +85,4 @@
         cursor: pointer;
     }
 
-}
-#back-g{
-    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/aW4FjA5PhOT.png?_nc_eui2=AeEdirLr4uJ0S7aLe7Vpxfglaz4ElA9fvIxrPgSUD1-8jAm4DDX9GELWkowHaNnT4f_9EiKEdfLxgN-p7s39kS_U');
-    height: 600px;
-    width: 300px;
-    background-repeat: no-repeat;
 }
