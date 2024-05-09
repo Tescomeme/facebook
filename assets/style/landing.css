@@ -871,7 +871,10 @@ footer span a {
 }
 }
 
-@media(width>1300px){
+@media(width>1280px){
+    .card-container-flex .leftslider {
+        left: 40px;
+    }
     .card-container-flex .rightslider {
         right: 40px;
     }
@@ -879,18 +882,18 @@ footer span a {
     .card-container-flex {
         display: flex;
         position: relative;
-        margin: 0 25px;
-        padding: 0 20px;
+        margin: 0 30px;
+        padding: 0 30px;
     }
 
     .messagesender {
         padding: 15px;
-        margin: 30px 40px 0;
+        margin: 30px 60px 0;
     }
 
     .post {
         padding: 10px 10px 0;
-        margin: 30px 40px;
+        margin: 30px 60px;
     }
 }
 
