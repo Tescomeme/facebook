@@ -986,7 +986,7 @@ footer span a {
 }
 
 
-/* @media(width<1164px) {
+@media(width<1164px) {
 
     .rightnav {
         width: 350px;
@@ -1181,4 +1181,4 @@ footer span a {
     }
 }
 
-@media screen {} */
+@media screen {}
