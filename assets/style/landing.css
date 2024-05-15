@@ -59,7 +59,8 @@ body {
 
 .main-content {
     padding: 80px 1% 0;
-    max-width: 50vw;
+    max-width: 100vw;
+    width: 50%;
     /* flex-basis: 70%; */
 }
 
@@ -769,8 +770,11 @@ footer span a {
     }
     
     .main-content {
-        padding: 80px 1% 0;
+        padding: 0;
         max-width: 100vw;
+        width: 98%;
+        margin: 80px auto;
+        /* width: 98%; */
         /* flex-basis: 70%; */
     }
 
@@ -781,12 +785,6 @@ footer span a {
         justify-content: space-between;
         height: 100vh;
         overflow-y: hidden;
-    }
-
-    .main-content {
-        /* width: 100%; */
-        padding: 0;
-        /* Adjust padding as needed */
     }
 
     .midnav {
@@ -841,11 +839,6 @@ footer span a {
         justify-content: center;
     }
 
-    .main-content {
-        width: 98%;
-        margin: 0 auto;
-    }
-
     .midnav {
         display: flex;
         justify-content: flex-start;
@@ -865,7 +858,7 @@ footer span a {
         align-items: center;
         position: relative;
         width: 100%;
-        margin: 80px 0 0 0;
+        margin: 0;
         /* overflow-x: hidden; */
         padding: 0;
         /* min-width: 100%; */
@@ -986,7 +979,7 @@ footer span a {
 }
 
 
-@media(width<1164px) {
+/* @media(min-width<1164px) {
 
     .rightnav {
         width: 350px;
@@ -1043,7 +1036,7 @@ footer span a {
         justify-content: flex-end;
     }
 
-}
+} */
 
 @media(width<1090px) {
     .midnav li {
@@ -1181,4 +1174,3 @@ footer span a {
     }
 }
 
-@media screen {}
