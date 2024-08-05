@@ -344,9 +344,9 @@ footer span a {
 }
 
 .card-container{
-    width: 87%;
+    width: 97%;
     overflow-x: scroll;
-    position: relative;
+    /* position: relative; */
     display: flex;
     margin: 30px 30px 0;
 
@@ -354,6 +354,7 @@ footer span a {
 
 .card-container-flex {
     display: flex;
+    /* position: relative; */
 }
 
 .card .image {
@@ -389,7 +390,7 @@ footer span a {
     border: 5px solid #0866ff;
 }
 
-.card-container-flex .leftslider {
+/* .card-container-flex .leftslider {
     left: 35px;
 }
 
@@ -400,7 +401,7 @@ footer span a {
     border-radius: 100%;
     position: absolute;
     bottom: 100px;
-    background-color: gray;
+    background-color: red;
     padding: 8px;
 }
 
@@ -412,6 +413,40 @@ footer span a {
 
 .card-container-flex .rightslider {
     right: 35px;
+} */
+
+.slider{
+    position: relative;
+    width: 89%;
+    /* display: flex; */
+}
+
+
+
+.slider .leftslider {
+    left: 45px;
+}
+
+.slider .rightslider,
+.slider .leftslider {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 100px;
+    cursor: pointer;
+    background-color: red;
+    padding: 8px;  
+}
+
+.slider .leftslider img,
+.slider .rightslider img {
+    width: 20px;
+    height: 20px;
+}
+
+.slider .rightslider {
+    right: 30px; 
 }
 
 
@@ -508,11 +543,13 @@ footer span a {
     justify-content: space-between;
 }
 
-.posttop-content a img {
+.posttop-content .user-image {
     width: 20px;
+    height: 4px;
     margin-right: 15px;
     /* color: white; */
     filter: invert();
+    cursor: pointer;
 }
 
 .posttop img {
@@ -752,7 +789,7 @@ footer span a {
     }
 } */
 
-/* @media (width < 768px) {
+@media (width < 768px) {
 
     .rightnav li,
     .leftnav,
@@ -790,15 +827,20 @@ footer span a {
         margin: 0 5px;
     }
 
+    .card-container{
+        width: 97%;
+        overflow-x: scroll;
+        /* position: relative; */
+        display: flex;
+        margin: 30px 30px 0;
+    
+    }
+    
     .card-container-flex {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        width: 100%;
-
+        /* position: relative; */
     }
-} */
+}
 /* @media (width <=400px){
     .midnav {
         display: flex;
